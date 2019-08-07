@@ -9,8 +9,8 @@ Lets say you have the chatroom in a subfolder of your project directory called c
 In Nginx conf for the site you want the chat enabled, add this
 
 location /chat/ {
-index index.php;
-autoindex on;
+    index index.php;
+    autoindex on;
 }
 
 ChatBot: Error: Connection status: 403 will go away.
